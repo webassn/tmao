@@ -1,4 +1,4 @@
-import Vue from 'vue'
+﻿import Vue from 'vue'
 import Vuex from 'vuex'
 // modules
 import cart from './modules/cart'
@@ -9,6 +9,8 @@ import mutations from './mutations'
 Vue.use(Vuex)
 
 // 存放数据
+
+//写了一个注释
 
 const state = {
   // 商品列表 ： 20 40 ...数据
